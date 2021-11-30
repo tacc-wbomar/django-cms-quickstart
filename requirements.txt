@@ -27,6 +27,7 @@ django==3.1.13
     #   django-sekizai
     #   django-storages
     #   django-treebeard
+    #   djangocms-tacc-system-monitor
     #   easy-thumbnails
 django-classy-tags==2.0.0
     # via
@@ -44,6 +45,7 @@ django-cms==3.9.0
     #   djangocms-link
     #   djangocms-picture
     #   djangocms-style
+    #   djangocms-tacc-system-monitor
     #   djangocms-text-ckeditor
     #   djangocms-video
 django-filer @ https://github.com/django-cms/django-filer/archive/refs/tags/2.1.1.zip
@@ -99,6 +101,8 @@ djangocms-picture==3.0.0
     #   -r requirements.in
     #   djangocms-bootstrap4
 djangocms-style==3.0.0
+    # via -r requirements.in
+djangocms-tacc-system-monitor @ git+http://git@github.com/tacc-wbomar/Core-CMS-Plugin-System-Monitor.git
     # via -r requirements.in
 djangocms-text-ckeditor==4.0.0
     # via
