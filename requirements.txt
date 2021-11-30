@@ -102,7 +102,7 @@ djangocms-picture==3.0.0
     #   djangocms-bootstrap4
 djangocms-style==3.0.0
     # via -r requirements.in
-djangocms-tacc-system-monitor @ git+http://git@github.com/tacc-wbomar/Core-CMS-Plugin-System-Monitor.git
+djangocms-tacc-system-monitor @ git+http://git@github.com/tacc-wbomar/Core-CMS-Plugin-System-Monitor.git@v0.1.5
     # via -r requirements.in
 djangocms-text-ckeditor==4.0.0
     # via
