@@ -211,3 +211,20 @@ MEDIA_ROOT = os.path.join('/data/media/')
 
 
 SITE_ID = 1
+
+
+# Import & Export
+try:
+    from tacc_core_cms_backend.settings_custom import *
+except ModuleNotFoundError:
+    pass
+
+try:
+    from tacc_core_cms_backend.secrets import *
+except ModuleNotFoundError:
+    pass
+
+try:
+    from tacc_core_cms_backend.settings_local import *
+except ModuleNotFoundError:
+    pass
