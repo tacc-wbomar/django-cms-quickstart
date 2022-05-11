@@ -1,3 +1,26 @@
+# TACC CMS Core (New) Proof-of-Concept
+
+## Goal
+
+Serve as a base CMS project for CMS projects to install as dependency and customize.
+
+## Testing
+
+1. To run indendently, follow the "Try it" instructions.
+2. To run as dependency of a CMS project, follow [wesleyboar/django-cms-quickstart--project](https://github.com/wesleyboar/django-cms-quickstart--project).
+
+## Status
+
+- [x] Package as a base CMS.
+    - Added `setup.py` and `MANIFEST.in`.
+- [x] Support secrets and local settings.
+    - `settings.py` "Import settings"
+    - `.gitignore` "settings_local.py"
+- [ ] Provide reusable and extendable docker configuration for CMS projects.
+- [ ] Complete [wesleyboar/django-cms-quickstart--project](https://github.com/wesleyboar/django-cms-quickstart--project) status.
+
+---
+
 ![Python application](https://github.com/django-cms/django-cms-quickstart/workflows/Python%20application/badge.svg?branch=main)
 
 # django CMS quickstart

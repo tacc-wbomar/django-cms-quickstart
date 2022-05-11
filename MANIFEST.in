@@ -1,0 +1,3 @@
+include LICENSE
+include README.rst
+recursive-include tacc_core_cms_backend *.html *.png *.gif *.js *.jpg *.jpeg *.svg *.py *.css *.po *.mo *.json
