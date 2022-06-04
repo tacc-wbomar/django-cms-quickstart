@@ -80,8 +80,8 @@ djangocms-attributes-field==2.0.0
     #   djangocms-picture
     #   djangocms-style
     #   djangocms-video
-djangocms-bootstrap4==2.0.0
-    # via -r requirements.in
+git+https://github.com/wesleyboar/djangocms-bootstrap4.git@quick/grid-container-support-nested-tuple-choices#djangocms-bootstrap4
+    # manually added
 djangocms-file==3.0.0
     # via -r requirements.in
 djangocms-googlemap==2.0.0

@@ -37,6 +37,7 @@ djangocms-picture>=3.0,<4.0
 easy-thumbnails==2.8.0
 # optional django CMS Bootstrap 4 modules
 djangocms-bootstrap4>=2.0,<3.0
+# (manually changed in requirements.txt)
 # optional django CMS Bootstrap 5 modules (alpha) - requires BS5 frontend setup in the templates
 # as of Q4 2021 there are still basic issues with djangocms-bootstrap5
 # https://github.com/gl-agnx/djangocms-bootstrap5/archive/refs/heads/master.zip#egg=djangocms_bootstrap5

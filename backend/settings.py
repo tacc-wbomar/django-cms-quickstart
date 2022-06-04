@@ -3,6 +3,8 @@ import os
 import dj_database_url
 from django_storage_url import dsn_configured_storage_class
 
+from django.utils.translation import gettext_lazy as _
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -211,3 +213,14 @@ MEDIA_ROOT = os.path.join('/data/media/')
 
 
 SITE_ID = 1
+
+
+DJANGOCMS_BOOTSTRAP4_GRID_CONTAINERS = (
+    (_('Default'), (
+        ('container', _('Container')),
+        ('container-fluid', _('Fluid container')),
+    )),
+    (_('Custom'), (
+        ('container-yours', _('Your container')),
+    )),
+)
