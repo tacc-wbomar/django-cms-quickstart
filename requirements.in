@@ -43,7 +43,7 @@ djangocms-bootstrap4>=2.0,<3.0
 
 # standard TACC CMS plugins
 # git+http://git@github.com/TACC/Core-CMS-Plugin-….git#egg=djangocms-tacc-…
-git+http://git@github.com/tacc-wbomar/Core-CMS-Plugin-System-Monitor.git@v0.1.5#egg=djangocms-tacc-system-monitor
+git+http://git@github.com/wesleyboar/Core-CMS-Plugin-System-Monitor.git@v0.1.5#egg=djangocms-tacc-system-monitor
 
 # Django Filer - optional, but used in most projects (alpha)
 https://github.com/django-cms/django-filer/archive/refs/tags/2.1.1.zip#egg=django-filer
