@@ -35,6 +35,7 @@ django==3.2
     #   django-select2
     #   django-storages
     #   django-treebeard
+    #   djangocms-tacc-sample
     #   djangocms-frontend
     #   easy-thumbnails
 django-appconf==1.0.5
@@ -54,6 +55,7 @@ django-cms==3.11.0
     #   djangocms-icon
     #   djangocms-picture
     #   djangocms-style
+    #   djangocms-tacc-sample
     #   djangocms-text-ckeditor
     #   djangocms-video
 django-entangled==0.4
@@ -110,6 +112,8 @@ djangocms-icon==2.0.0
 djangocms-picture==3.0.0
     # via -r requirements.in
 djangocms-style==3.0.0
+    # via -r requirements.in
+djangocms-tacc-sample @ git+http://git@github.com/wesleyboar/Core-CMS-Plugin-Sample.git@v0.1.0
     # via -r requirements.in
 djangocms-text-ckeditor==5.1.1
     # via
