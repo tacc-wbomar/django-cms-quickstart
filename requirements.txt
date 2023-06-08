@@ -102,7 +102,7 @@ djangocms-picture==3.0.0
     #   djangocms-bootstrap4
 djangocms-style==3.0.0
     # via -r requirements.in
-djangocms-tacc-sample @ git+http://git@github.com/tacc-wbomar/Core-CMS-Plugin-Sample.git@v0.1.0
+djangocms-tacc-sample @ git+http://git@github.com/wesleyboar/Core-CMS-Plugin-Sample.git@v0.1.0
     # via -r requirements.in
 djangocms-text-ckeditor==4.0.0
     # via
